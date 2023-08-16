@@ -142,7 +142,7 @@ Events wrapper can be enabled by setting function's environment variables and ma
    ```
    ...
    environment:
-      RESPONSE_WRAPPER: CLOUDEVENTS
+      RESPONSE_FORMAT: CLOUDEVENTS
       CE_TYPE: go-klr-cloudevent
    ...
    ```
